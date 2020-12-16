@@ -1,0 +1,41 @@
+body {
+    background-color: #E7D8C8 !important;
+}
+a {
+    padding: 22px 30px;
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+    line-height: 1.6;
+    display: block;
+    margin: auto;
+    font-size: 20px;
+}
+h2 {
+    text-align: center;
+    
+}
+img {
+    align-items: center;
+    border-radius: 75%;
+}
+header {
+    background-color: #B2967D;
+}
+footer {
+    background-color: #B2967D;
+}
+h3 {
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+nav {
+    justify-content: space-between;
+}

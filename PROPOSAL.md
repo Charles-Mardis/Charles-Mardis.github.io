@@ -16,6 +16,6 @@ I would like for the project to look like this:
 - Tuesday: foundation code, have all of my html together, no css/ bootstrap
 - Wednesday: implement css/bootstrap/css-grid, get the website looking how I would like it.
 - Thursday: implement media queries for laptops/desktops, tablets, and phones
-https://ibb.co/Y2zw2zj
-https://ibb.co/xm6RVDg
+<a href="https://ibb.co/Y2zw2zj" src="Design">
+<a href="https://ibb.co/xm6RVDg" alt="mobile_design">
 
