@@ -8,23 +8,23 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" role="navigation">
     <header>
-        <div>
-            <a href="https://ibb.co/YTdmqrR"><img class="float-left rounded-circle avatar img-size" width="330" src="https://i.ibb.co/QjHL15b/Image-from-i-OS-2.jpg" alt="Image-from-i-OS-2" border="0"></a>
+        <div class="padding-size">
+            <a href="https://ibb.co/YTdmqrR"><img class="float-left rounded-circle avatar img-size move-down" width="330" src="https://i.ibb.co/QjHL15b/Image-from-i-OS-2.jpg" alt="Image-from-i-OS-2" border="0"></a>
 
-            <h1>
+            <h1 class="move-left">
                 Charles Mardis
             </h1>
-            <h3>
+            <h3 class="move-left">
                 Software Engineer
             </h3>
-            <p>
+            <p class="center-now header-width">
                 I'm Charles Mardis, I'm working very hard to become a Software Developer.
                 I graduated from Falkner High School and currently enrolled in Base Camp Coding Academy.
                 I had zero experiance in coding before Base Camp. I've learned so much since I've been enrolled and I plan on learning so much more.
             </p>
-            <p>
+            <p class = "need-center">
 
-                Skills: Python | Html | Css | Bootstrap | Sqlite3 
+                Skills: Python | Html | Css | Bootstrap | Sqlite3 | Django
             </p>
         </div>
        
@@ -37,40 +37,50 @@
         <div class="img-with-text row ">
             <section id="projects">
                 
-                <h2 class="text-center">
+                <h2 class="text-center h2-size">
                     Projects
                 </h2>
-                <div class="row move-now">
-                    <div class="column">
+                <div class="row move-now second-pic-color">
+                    <div class="column ">
                         <a href="https://github.com/BaseCampCoding/unit-project-2-charles-and-jeremiah-t">
                             <img class="img-with-text move-now" src="https://miro.medium.com/max/1050/0*DLa8yczafz-nI31s" style="width:100%"></a>
                             <h3>Password Manager</h3>
                             
-                                  <p>I made this project with a partner for an assignment. You are able to make an account/save/view your passwords when signed into that account.</p>
-                                  <p>[Python]</p>
-                                  <p>[November 13, 2020]</p>
+                                
+                                <p class = "comment">I made this project with a partner for an assignment. You are able to make an account/save/view your passwords when signed into that account.</p>
+                                <p class="need-center">[Python]</p>
+                                <p class="need-center">[November 13, 2020]</p>
                                   
                              
                     </div>
-                    <div class="column">
+                    <div class="column pic-color">
                         <a href="https://github.com/Charles-Mardis/html-css---how-to-website-Charles-Mardis">
                             <img class="img-with-text move-now" src="https://twoggle.com/blog/wp-content/uploads/2015/03/understand-html-code-on-your-blog.jpg" style="width:100%"></a>
                             <h3>How To: Oil</h3>
-                            <p>Created this project for an assignment. I made a website dedicated to inform people how to change the oil in thier car.</p>
-                            <p>[Html]</p>
-                            <p>[December 3, 2020]</p>
+                            <p class = "comment">Created this project for an assignment. I made a website dedicated to inform people how to change the oil in thier car.</p>
+                            <p class="need-center">[Html]</p>
+                            <p class="need-center">[December 3, 2020]</p>
                     </div>
-                    <div class="column">
+                    <div class="column pic-color">
                         <a href="https://github.com/Charles-Mardis/benchmark-2-1---who-is-the-goat-Charles-Mardis">
-                            <img class="img-with-text move-now" src="https://i.ibb.co/7127wwx/Dad-photo.png" alt="Dad-photo" style="width:100%" border="0"> </a>
+                            <img class="img-with-text move-now " src="https://i.ibb.co/7127wwx/Dad-photo.png" alt="Dad-photo" style="width:100%" border="0"> </a>
                             <h3>G.O.A.T. Webpage</h3>
                             
-                                  <p>I made this webpage for an assignment. This website explains who I think is the greatest of all time, and why.</p>
-                                  <p>[Html]</p>
-                                  <p>[November 23, 2020]</p>
+                                  <p class = "comment">I made this webpage for an assignment. This website explains who I think is the greatest of all time, and why.</p>
+                                  <p class="need-center">[Html]</p>
+                                  <p class="need-center">[November 23, 2020]</p>
                                   
                              
                     </div>
+                    <div class="column">
+                        <a href="https://github.com/elprice/bootcamp-bot">
+                            <img class="img-with-text move-now" src="https://miro.medium.com/max/1050/1*rbSRs0yGxTcOGRdsUFtVxg.png" alt="Discord" style="width:100%" border="0"> </a>
+                            <h3>Discord Bot</h3>
+                            <p class="comment"> My industry mentor and I made this discord bot with functionality. This discord bot has commands that show your ping, puts teams together for a tournament, and much more. It is still a work in progress.</p>
+                            <p class="need-center">[Python]</p>
+                            <p class="need-center">[January 2021]
+                    </div>
+
                     
                 </div>
                
@@ -82,7 +92,7 @@
         <section id="contact" class="contact-section">
             <div class="contact-section-header">
               <h2>Contact Me</h2>
-              <p>I'll be happy to talk</p>
+              <p class="move-center">I'll be happy to talk</p>
             </div>
             <div class="contact-links text-center center-now">
              
@@ -91,14 +101,14 @@
                 href="https://github.com/Charles-Mardis"
                 target="_blank"
                 class="btn contact-details"
-                ><i class="fab fa-github"></i> GitHub</a
+                ><i class="fab fa-github"></i> CharlesMardis</a
               >
               
-              <a href="mailto:example@example.com" class="btn contact-details"
-                ><i class="fas fa-at"></i> Send an email</a
+              <a href="charles.mardis02@gmail.com" class="btn contact-details"
+                ><i class="fas fa-at"></i> CharlesMardis2002@gmail.com</a
               >
               <a href="https://www.linkedin.com/in/charles-mardis-9387431bb/" class="btn contact-details"
-              ><i class="fab fa-linkedin"></i>LinkedIn</a>
+              ><i class="fab fa-linkedin"></i>Charles Mardis</a>
               
             </div>
           </section>
